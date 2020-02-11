@@ -5,7 +5,7 @@
 Необходимо произвести рефакторинг кода класса Finder с применением stream api.
 </details>
 
-'Source Code:'
+`Source Code:`
 
  ```javascript
  public class Finder {
