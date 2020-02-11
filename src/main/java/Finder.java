@@ -14,7 +14,7 @@ public class Finder {
      */
     //added static for method
     public static Set<String> findOldMembers(List<MembersGroup> groups, final int targetAge) {
-     return groups.stream()
+        return groups.stream()
                   .flatMap(membersGroup -> membersGroup.getMembers()
                                                        .stream()
                                                        .filter(member -> member.getAge() > targetAge))
