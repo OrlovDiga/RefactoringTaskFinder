@@ -12,6 +12,7 @@ public class Finder {
      * @param targetAge возраст для поиска
      * @return список имен групп из списка групп старше возраста targetAge
      */
+
     //added static for method
     public static Set<String> findOldMembers(List<MembersGroup> groups, final int targetAge) {
         return groups.stream()

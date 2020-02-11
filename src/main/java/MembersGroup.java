@@ -8,9 +8,11 @@ public class MembersGroup {
         this.groupName = groupName;
         this.members = members;
     }
+
     public String getGroupName() {
         return groupName;
     }
+
     public List<Member> getMembers() {
         return members;
     }
